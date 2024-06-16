@@ -1,0 +1,243 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the billing page */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Header section styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.company-info .sub-heading{
+    text-decoration: underline;
+
+}
+
+h1,h3{
+    color: purple;
+
+}
+
+header p{
+    color: purple;
+}
+
+.invoice{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 25px;
+    font-weight: 900;
+}
+
+
+
+
+
+.company-info p{
+    margin: 5px 0;
+}
+
+
+.info{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding-block: 2px;
+}
+
+.info-inside{
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    padding-inline: 10px;
+    width:70%;
+    color: purple;
+    font-size: 1rem;
+}
+
+.info-inside p{
+   margin: 5px 0;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+
+
+/* Company details section */
+.company-details {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.company-details p {
+    margin: 5px 0;
+}
+
+/* Billing details section */
+
+.customer-info p {
+    margin: 5px 0;
+}
+
+
+
+/* Table styles */
+.billing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.billing-table th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.billing-table td{
+    border: 1px solid black;
+    /* padding: 10px; */
+    text-align: center;
+    font-size: 14px;
+    height: 3px;
+}
+
+
+
+.billing-table th {
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+}
+/* 
+.billing-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+} */
+
+.billing-table tr:hover {
+    /* background-color: #f1f1f1; */
+}
+
+/* Input styles for adding product */
+input[type="text"], input[type="number"], input[type="month"] {
+    width: 100%;
+    padding: 8px;
+    /* margin: 5px 0; */
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+    border: 0px;
+    
+    /* border-radius: 4px; */
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="month"]:focus {
+    /* border-color: #007bff; */
+    outline: none;
+    /* box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); */
+}
+
+#pro{
+    padding-inline: 100px;
+    
+}
+
+
+.billing-table th{
+    background-color: aqua;
+}
+
+
+
+.footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.footer p{
+    margin: 2px 0;
+    font-size: 16px;
+}
+
+
+.footer .box div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 50px;
+    
+    
+}
+
+
+
+.footer h4{
+    margin-block: 2px;
+}
+
+
+.total{
+    /* box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, 0.2), 
+    0 10px 10px -10px rgba(0, 0, 0, 0.2);  */
+
+    border-top: 2px solid black;
+    margin-block: 10px;
+}
+
+.grand-total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px ;
+    font-weight: 800;
+}
+
+.grand-total h4{
+    font-weight:800;
+}
+
+
+
+/* Add product button styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+
+.button{
+    margin-block-end: 50px;
+}
+
+
+
